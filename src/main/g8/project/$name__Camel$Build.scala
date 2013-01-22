@@ -26,7 +26,7 @@ object Dependencies {
   
   	val testDeps = Seq(
     	"org.specs2" %% "specs2" % "1.13",
-    	"junit" % "junit" % "4.10",
+    	"junit" % "junit" % "4.10"
   	).map(_ % "test")
 }
 
